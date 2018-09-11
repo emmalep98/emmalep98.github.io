@@ -1,0 +1,54 @@
+html, body {
+background: powderblue;
+
+}
+
+
+h1 {
+   color: yellow;
+   font-weight: bolder;
+   font-family: 'Quicksand', sans-serif;
+   margin: 100px;
+   border: 10px solid lavenderblush;
+   padding: 40px 40px;
+   background:center center rgb(255, 188, 162);
+   text-shadow: 4px 4px 4px aqua;
+   
+}
+
+h2{
+   color: lavenderblush;
+   font-weight: 800;
+  font-family: 'Quicksand', sans-serif;
+   margin: 100px 100px;
+   
+}
+
+h3{
+   color:lightsteelblue;
+   font-weight: 800;
+font-family: 'Quicksand', sans-serif;
+   margin: 100px 100px;
+}
+
+h4{
+   color:rgb(233, 190, 197);
+   font-weight: 800;
+font-family: 'Quicksand', sans-serif;
+   margin: 100px 100px;
+}
+
+h5{
+   color:lemonchiffon;
+font-family: 'Quicksand', sans-serif;
+   margin: 100px 100px;
+}
+
+h6{
+   color: whitesmoke;
+   font-weight: 800;
+font-family: 'Quicksand', sans-serif;
+   margin: 100px 100px;
+}
+
+
