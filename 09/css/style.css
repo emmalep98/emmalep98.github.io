@@ -1,0 +1,13 @@
+html, body {
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-size: 92px;
+  height: 100%;
+  text-align: center;
+}
+
+
+.watermelon {
+   position: absolute;
+   transform-origin: center center;
+}
