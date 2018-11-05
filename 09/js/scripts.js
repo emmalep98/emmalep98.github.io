@@ -36,91 +36,106 @@
 
       }
 
+      if (keyCodePressed === 65) {
+
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const alligator = document.createElement('img');
+         alligator.className = 'alligator';
+         alligator.src = `img/alligator.png`;
+         alligator.style.left = `${coordinates.x}px`;
+         alligator.style.top = `${coordinates.y}px`;
+         alligator.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(alligator);
+
+      }
+
       if (keyCodePressed === 66) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const bat = document.createElement('img');
-         bat.className = 'bat';
-         bat.src = `img/bat.png`;
-         bat.style.left = `${coordinates.x}px`;
-         bat.style.top = `${coordinates.y}px`;
-         bat.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(bat);
+         const button = document.createElement('img');
+         button.className = 'button';
+         button.src = `img/button.png`;
+         button.style.left = `${coordinates.x}px`;
+         button.style.top = `${coordinates.y}px`;
+         button.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(button);
 
       }
+
 
       if (keyCodePressed === 67) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const cat = document.createElement('img');
-         cat.className = 'cat';
-         cat.src = `img/cat.png`;
-         cat.style.left = `${coordinates.x}px`;
-         cat.style.top = `${coordinates.y}px`;
-         cat.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(cat);
+         const car = document.createElement('img');
+         car.className = 'car';
+         car.src = `img/car.png`;
+         car.style.left = `${coordinates.x}px`;
+         car.style.top = `${coordinates.y}px`;
+         car.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(car);
 
       }
-
 
       if (keyCodePressed === 68) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const dog = document.createElement('img');
-         dog.className = 'dog';
-         dog.src = `img/dog.png`;
-         dog.style.left = `${coordinates.x}px`;
-         dog.style.top = `${coordinates.y}px`;
-         dog.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(dog);
+         const donut = document.createElement('img');
+         donut.className = 'donut';
+         donut.src = `img/donut.png`;
+         donut.style.left = `${coordinates.x}px`;
+         donut.style.top = `${coordinates.y}px`;
+         donut.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(donut);
 
       }
+
 
       if (keyCodePressed === 69) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const egg = document.createElement('img');
-         egg.className = 'egg';
-         egg.src = `img/egg.png`;
-         egg.style.left = `${coordinates.x}px`;
-         egg.style.top = `${coordinates.y}px`;
-         egg.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(egg);
+         const eye = document.createElement('img');
+         eye.className = 'eye';
+         eye.src = `img/eye.png`;
+         eye.style.left = `${coordinates.x}px`;
+         eye.style.top = `${coordinates.y}px`;
+         eye.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(eye);
 
       }
+
 
 
       if (keyCodePressed === 70) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const fish = document.createElement('img');
-         fish.className = 'fish';
-         fish.src = `img/fish.png`;
-         fish.style.left = `${coordinates.x}px`;
-         fish.style.top = `${coordinates.y}px`;
-         fish.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(fish);
+         const fork = document.createElement('img');
+         fork.className = 'fork';
+         fork.src = `img/fork.png`;
+         fork.style.left = `${coordinates.x}px`;
+         fork.style.top = `${coordinates.y}px`;
+         fork.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(fork);
 
       }
-
 
 
       if (keyCodePressed === 71) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const giraffe = document.createElement('img');
-         giraffe.className = 'giraffe';
-         giraffe.src = `img/giraffe.png`;
-         giraffe.style.left = `${coordinates.x}px`;
-         giraffe.style.top = `${coordinates.y}px`;
-         giraffe.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(giraffe);
+         const glasses = document.createElement('img');
+         glasses.className = 'glasses';
+         glasses.src = `img/glasses.png`;
+         glasses.style.left = `${coordinates.x}px`;
+         glasses.style.top = `${coordinates.y}px`;
+         glasses.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(glasses);
 
       }
 
@@ -129,16 +144,15 @@
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const hat = document.createElement('img');
-         hat.className = 'hat';
-         hat.src = `img/hat.png`;
-         hat.style.left = `${coordinates.x}px`;
-         hat.style.top = `${coordinates.y}px`;
-         hat.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(hat);
+         const hippo = document.createElement('img');
+         hippo.className = 'hippo';
+         hippo.src = `img/hippo.png`;
+         hippo.style.left = `${coordinates.x}px`;
+         hippo.style.top = `${coordinates.y}px`;
+         hippo.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(hippo);
 
       }
-
 
       if (keyCodePressed === 73) {
 
@@ -158,13 +172,13 @@
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const jello = document.createElement('img');
-         jello.className = 'jello';
-         jello.src = `img/jello.png`;
-         jello.style.left = `${coordinates.x}px`;
-         jello.style.top = `${coordinates.y}px`;
-         jello.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(jello);
+         const juice = document.createElement('img');
+         juice.className = 'juice';
+         juice.src = `img/juice.png`;
+         juice.style.left = `${coordinates.x}px`;
+         juice.style.top = `${coordinates.y}px`;
+         juice.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(juice);
 
       }
 
@@ -186,27 +200,28 @@
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const lantern = document.createElement('img');
-         lantern.className = 'lantern';
-         lantern.src = `img/lantern.png`;
-         lantern.style.left = `${coordinates.x}px`;
-         lantern.style.top = `${coordinates.y}px`;
-         lantern.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(lantern);
+         const lemon = document.createElement('img');
+         lemon.className = 'lemon';
+         lemon.src = `img/lemon.png`;
+         lemon.style.left = `${coordinates.x}px`;
+         lemon.style.top = `${coordinates.y}px`;
+         lemon.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(lemon);
 
       }
+
 
       if (keyCodePressed === 77) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const monkey = document.createElement('img');
-         monkey.className = 'monkey';
-         monkey.src = `img/monkey.png`;
-         monkey.style.left = `${coordinates.x}px`;
-         monkey.style.top = `${coordinates.y}px`;
-         monkey.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(monkey);
+         const moon = document.createElement('img');
+         moon.className = 'moon';
+         moon.src = `img/moon.png`;
+         moon.style.left = `${coordinates.x}px`;
+         moon.style.top = `${coordinates.y}px`;
+         moon.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(moon);
 
       }
 
@@ -215,28 +230,27 @@
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const nest = document.createElement('img');
-         nest.className = 'nest';
-         nest.src = `img/nest.png`;
-         nest.style.left = `${coordinates.x}px`;
-         nest.style.top = `${coordinates.y}px`;
-         nest.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(nest);
+         const nail = document.createElement('img');
+         nail.className = 'nail';
+         nail.src = `img/nail.png`;
+         nail.style.left = `${coordinates.x}px`;
+         nail.style.top = `${coordinates.y}px`;
+         nail.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(nail);
 
       }
-
 
       if (keyCodePressed === 79) {
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const octopus = document.createElement('img');
-         octopus.className = 'octopus';
-         octopus.src = `img/octopus.png`;
-         octopus.style.left = `${coordinates.x}px`;
-         octopus.style.top = `${coordinates.y}px`;
-         octopus.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(octopus);
+         const oven = document.createElement('img');
+         oven.className = 'oven';
+         oven.src = `img/oven.png`;
+         oven.style.left = `${coordinates.x}px`;
+         oven.style.top = `${coordinates.y}px`;
+         oven.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(oven);
 
       }
 
@@ -244,26 +258,142 @@
 
          const degreesRotaion = Math.floor(Math.random() * 360);
 
-         const penguin = document.createElement('img');
-         penguin.className = 'penguin';
-         penguin.src = `img/penguin.png`;
-         penguin.style.left = `${coordinates.x}px`;
-         penguin.style.top = `${coordinates.y}px`;
-         penguin.style.transform = `rotate(${degreesRotaion}deg)`;
-         document.body.appendChild(penguin);
+         const pig = document.createElement('img');
+         pig.className = 'pig';
+         pig.src = `img/pig.png`;
+         pig.style.left = `${coordinates.x}px`;
+         pig.style.top = `${coordinates.y}px`;
+         pig.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(pig);
+
+      }
+
+      if (keyCodePressed === 81) {
+
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const quarter = document.createElement('img');
+         quarter.className = 'quarter';
+         quarter.src = `img/quarter.png`;
+         quarter.style.left = `${coordinates.x}px`;
+         quarter.style.top = `${coordinates.y}px`;
+         quarter.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(quarter);
+
+      }
+
+      if (keyCodePressed === 82) {
+
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const rock = document.createElement('img');
+         rock.className = 'rock';
+         rock.src = `img/rock.png`;
+         rock.style.left = `${coordinates.x}px`;
+         rock.style.top = `${coordinates.y}px`;
+         rock.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(rock);
+
+      }
+
+      if (keyCodePressed === 83) {
+
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const scissors = document.createElement('img');
+         scissors.className = 'scissors';
+         scissors.src = `img/scissors.png`;
+         scissors.style.left = `${coordinates.x}px`;
+         scissors.style.top = `${coordinates.y}px`;
+         scissors.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(scissors);
 
       }
 
 
+      if (keyCodePressed === 84) {
 
+         const degreesRotaion = Math.floor(Math.random() * 360);
 
+         const telephone = document.createElement('img');
+         telephone.className = 'telephone';
+         telephone.src = `img/telephone.png`;
+         telephone.style.left = `${coordinates.x}px`;
+         telephone.style.top = `${coordinates.y}px`;
+         telephone.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(telephone);
 
+      }
 
+      if (keyCodePressed === 85) {
 
+         const degreesRotaion = Math.floor(Math.random() * 360);
 
+         const umbrella = document.createElement('img');
+         umbrella.className = 'umbrella';
+         umbrella.src = `img/umbrella.png`;
+         umbrella.style.left = `${coordinates.x}px`;
+         umbrella.style.top = `${coordinates.y}px`;
+         umbrella.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(umbrella);
 
+      }
 
+      if (keyCodePressed === 86) {
 
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const violin = document.createElement('img');
+         violin.className = 'violin';
+         violin.src = `img/violin.png`;
+         violin.style.left = `${coordinates.x}px`;
+         violin.style.top = `${coordinates.y}px`;
+         violin.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(violin);
+
+      }
+
+      if (keyCodePressed === 88) {
+
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const x = document.createElement('img');
+         x.className = 'x';
+         x.src = `img/x.png`;
+         x.style.left = `${coordinates.x}px`;
+         x.style.top = `${coordinates.y}px`;
+         x.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(x);
+
+      }
+
+      if (keyCodePressed === 89) {
+
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const yolk = document.createElement('img');
+         yolk.className = 'yolk';
+         yolk.src = `img/yolk.png`;
+         yolk.style.left = `${coordinates.x}px`;
+         yolk.style.top = `${coordinates.y}px`;
+         yolk.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(yolk);
+
+      }
+
+      if (keyCodePressed === 90) {
+
+         const degreesRotaion = Math.floor(Math.random() * 360);
+
+         const zebra = document.createElement('img');
+         zebra.className = 'zebra';
+         zebra.src = `img/zebra.png`;
+         zebra.style.left = `${coordinates.x}px`;
+         zebra.style.top = `${coordinates.y}px`;
+         zebra.style.transform = `rotate(${degreesRotaion}deg)`;
+         document.body.appendChild(zebra);
+
+      }
 
 
 

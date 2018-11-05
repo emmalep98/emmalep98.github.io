@@ -1,13 +1,139 @@
 html, body {
-  color: #fff;
+  color: pink;
   font-family: 'Karla', sans-serif;
-  font-size: 92px;
+  font-size: 5px;
   height: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 
 .watermelon {
    position: absolute;
    transform-origin: center center;
+}
+
+.alligator {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.button {
+  position: absolute;
+  transform-origin:  center center;
+}
+
+.car {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.donut {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.eye {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.fork {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.glasses {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.hippo {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.icecream {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.juice {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.key {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.lemon {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.moon {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.nail {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.oven {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.pig {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.quarter {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.rock {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.scissors {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.telephone {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.umbrella {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.violin {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.x {
+  position: absolute;
+  transform-origin: center center;
+}
+
+
+.yolk {
+  position: absolute;
+  transform-origin: center center;
+}
+
+.zebra {
+  position: absolute;
+  transform-origin: center center;
 }
