@@ -1,8 +1,11 @@
+
 (function () {
    let counter = 0;
 
    const originalHTML = document.body.innerHTML;
    let messageWrapper = document.getElementById('message');
+
+
 
    document.onclick = function (event) {
       event.preventDefault();
@@ -397,10 +400,19 @@
 
 
 
+      if (keyCodePressed === 13) {
+
+         var audio = document.createElement('audio')
+         audio.setAttribute('src', 'img/music.wav')
+         audio.setAttribute('autoplay', 'autoplay')
+         audio.play();
+      }
 
 
 
-      else if (keyCodePressed === 32) {
+
+
+      if (keyCodePressed === 32) {
          helpers.removeClass('animated');
          document.body.style.backgroundColor = helpers.generateRandomColorString();
       }
