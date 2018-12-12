@@ -81,6 +81,13 @@ h1 {
    max-width: 100%;
 }
 
+.bb__wrapper.how {
+  animation: none;
+  overflow: hidden;
+  position: relative;
+  justify-content: flex-start;
+}
+
 .gallery-frame {
    position: relative;
 }
@@ -143,34 +150,37 @@ h1 {
 .donate-to-best-buddies {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 250px;
-animation: change 10s infinite alternate;
+  font-weight: bold;
 position: absolute;
-}
-
-@keyframes change {
-  from {
-    color: #9396cb;
-  }
-  to {
-    color: #8ed2c5;
-  }
+  display: block;
+   text-align: left;
+   top: -30px;
+   color: #9396cb;
 }
 
 .facebookfundraisers {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 250px;
-  position: relative;
-  text-align: center;
-  animation: font 10s infinite alternate-reverse;
+  position: absolute;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  top: 40%;
+  color: #8ed2c5;
 }
 
 
-.attend-an-event {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 250px;
+.attendevent {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 250px;
  position: absolute;
- overflow: hidden;
- top: 40;
+ font-weight: bold;
+ display: block;
+ text-align: left;
+ top:18%;
+ left: 18px;
+ color: #f37736;
+
 }
 
 .arrow {
